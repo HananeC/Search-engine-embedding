@@ -1,0 +1,6 @@
+pymongo
+transformers
+Pillow
+streamlit
+matplotlib
+numpy

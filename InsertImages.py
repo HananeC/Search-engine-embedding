@@ -4,8 +4,7 @@ from glob import glob
 import os
 from pymongo import MongoClient
 
-img_path = "/Users/your_username/Downloads/images" # Replace with your local folder path 
-
+img_path = "C:/Users/yourname/images"# share the path of all your images in local folder
 labels_list = [label for label in os.listdir(img_path)]
 print(f"Dataset Labels: {labels_list}")
 
@@ -30,12 +29,12 @@ def generate_image_embeddings(myImage):
 alldata = list()
 for index, y in enumerate(images): # store images and their corresponding embeddings
     alldata.append({
-        "image_path" : images[index],
-        "embeddings" : generate_image_embeddings(images[index])
+        "image_path1" : images[index],
+        "embeddings1" : generate_image_embeddings(images[index])
     })
 
-MONGODB_URI = "mongodb://localhost:27017/" # Replace with your MongoDB URI
-# If you are using MongoDB Atlas, it will look like this:  # MONGODB_URI = "mongodb+srv://<username>:<password>@cluster.mongodb.net/test?retryWrites=true&w=majority"
+MONGODB_URI = "mongodb://localhost:27017/" #Replace with your MongoDB URI
+
 # Connect to MongoDB cluster with MongoClient
 client = MongoClient(MONGODB_URI)
 

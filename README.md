@@ -1,8 +1,8 @@
 ---
 title: Image Similarity Search with ViT and MongoDB
 shortTitle: Image Search App
-intro: "Learn how to build an image similarity search tool using Hugging Face's Vision Transformer (ViT), MongoDB vector search, and a Streamlit web interface."
-type: tutorial
+intro: "A project that implements image similarity search using Hugging Face's Vision Transformer (ViT), MongoDB vector search, and a Streamlit interface."
+type: project
 topics:
   - computer-vision
   - machine-learning

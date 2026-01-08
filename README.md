@@ -74,7 +74,7 @@ To enable and accelerate image similarity searches, you need to create a **vecto
 ```
 
 
-### 1.4 Overviw of ViT (Vision Tronsformer) model
+### 1.4 Overview of ViT (Vision Tronsformer) model
 Vision Transformer (ViT) is a transformer adapted for computer vision tasks. An image is split into smaller fixed-sized patches which are treated as a sequence of tokens, similar to words for NLP tasks. ViT requires less resources to pretrain compared to convolutional architectures and its performance on large datasets can be transferred to smaller downstream tasks.
 
 ![ViT Architecture](docs/vit_arc.png)
